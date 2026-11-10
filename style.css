@@ -86,3 +86,37 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.info-section{ 
+  padding: 30px;
+  text-align: center;
+}
+
+h2{ 
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.image-boxes{ 
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.item{ 
+  width: 200px;
+}
+
+.box { 
+  width: 200px;
+  height: 200px;
+  border: 2px solid blue;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.item p {
+  font-size: 18px;
+}
