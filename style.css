@@ -178,3 +178,13 @@ h2 {
   font-size: 18px;
   font-weight: 600;
 }
+
+footer{ 
+  background-color: #1F2937;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 18px;
+}
