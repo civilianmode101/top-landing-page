@@ -47,7 +47,6 @@ a {
   gap: 30px;
 }
 
-
 .hero-left h1 {
   font-size: 48px;
   color: #f9faf8;
@@ -72,7 +71,7 @@ a {
   border-radius: 12px;
 }
 
-.hero-left{ 
+.hero-left {
   flex: 1;
 }
 
@@ -87,30 +86,30 @@ a {
   justify-content: center;
 }
 
-.info-section{ 
+.info-section {
   padding: 30px;
   text-align: center;
 }
 
-h2{ 
+h2 {
   font-size: 36px;
   font-weight: 900;
-  color: #1F2937;
+  color: #1f2937;
   margin-bottom: 0px;
 }
 
-.image-boxes{ 
+.image-boxes {
   margin-top: 40px;
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.item{ 
+.item {
   width: 200px;
 }
 
-.box { 
+.box {
   width: 200px;
   height: 200px;
   border: 2px solid blue;
@@ -122,8 +121,8 @@ h2{
   font-size: 18px;
 }
 
-.quote-section{ 
-  background-color: #E5E7EB;
+.quote-section {
+  background-color: #e5e7eb;
   padding: 100px 250px 100px;
   display: flex;
   justify-content: center;
@@ -137,8 +136,45 @@ h2{
   font-weight: 300;
 }
 
-.quote-section h4{ 
+.quote-section h4 {
   margin-left: auto;
   margin-top: 20px;
   font-size: 22px;
+}
+
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+.cta-section .card {
+  background-color: #3882f6;
+  padding: 60px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 12px;
+}
+
+.cta-section .card h5 {
+  font-size: 22px;
+  color: #f9faf8;
+}
+
+.cta-section .card p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.cta-section .card button{ 
+  padding: 8px 18px;
+  background-color: transparent;
+  border: 1px solid #f9faf8;
+  border-radius: 12px;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 600;
 }
